@@ -1,0 +1,55 @@
+.dialogs {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+
+.dialogs-left{
+    width: 30%;
+    
+}
+
+.dialogs-right{
+    width: 70%;
+}
+
+/* .dialog {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+} */
+
+.dialog-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.dialog-name {
+    margin-right: 50px;
+    font-weight: bold;
+    width: 150px;
+    text-decoration: none;
+    color: black;
+}
+
+.dialogName{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.dialogName:hover{
+    background:rgb(236, 233, 233) ;
+}
+
+.dialogMessage{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
