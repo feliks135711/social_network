@@ -4,11 +4,11 @@ import Posts from './posts/posts'
 import ProfileInfo from './profile-info/profile-info'
 
 
-function Profile() {
+function Profile(props) {
     return (
         <div className='profile'>
-            <ProfileInfo/>
-            <Posts />
+            <ProfileInfo userProfile={props.userProfile}/>
+            <Posts userProfile={props.userProfile} newPostText={props.newPostText} OnPostChange={props.OnPostChange} postsItems={props.postsItems} addPost={props.addPost} />
         </div>
     )
 }

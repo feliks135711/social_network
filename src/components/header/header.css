@@ -6,6 +6,7 @@
     width: 100%;
     height: 80px;
     z-index: 100;
+    box-shadow: 0 3px 3px rgb(127, 255, 191);
 }
 
 
@@ -21,4 +22,46 @@
 
 .header-link img {
     transform: translateY(5px);
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.header-input {
+    max-width: 300px;
+    min-width: 80px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    height: 35px;
+}
+
+.header-search {
+    border: 1px solid black;
+    padding: 0 15px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+}
+
+.header-right-link {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.header-right-link:hover {
+    background-color: rgb(236, 233, 233);
 }

@@ -12,6 +12,11 @@ function Post(props) {
                     <p className='post-comment-name'>{props.name}</p>
                     <p className='post-comment-text'>{props.text}</p>
                 </div>
+                <p>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    {props.likes}
+                </p>
+                
             </div>
         </div>
 

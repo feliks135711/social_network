@@ -1,0 +1,38 @@
+.friends{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.friends-card{
+    width: 230px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    margin-bottom: 20px;
+    
+}
+
+.friends-name{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.friends-img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.friends-card:hover{
+    background:rgb(236, 233, 233) ;
+}

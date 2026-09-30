@@ -1,0 +1,43 @@
+.popular{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.popularCard{
+    width: 100%;
+    padding: 20px;
+    margin-bottom:150px ;
+}
+
+.popular-photo{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.popular-title{
+    text-align: center;
+}
+
+.popular-text{
+    margin: 20px 0;
+}
+
+.popularCardBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-name{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.popular-data{
+    text-decoration: underline;
+}
